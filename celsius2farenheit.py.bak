@@ -1,0 +1,10 @@
+#this program is about convert temperature from celsius to farenheit
+#ft=((9/5)*c+32)
+#celsius2farenheit.py
+c=float(input("enter the temperature in celsius:"))
+#calc the temp in farenheit
+f=((9/5)*c+32)
+print("#"*30)
+print("celsius temperature={}".format(c))
+print("converted celsius temp into farenheit is={}".format(f))
+print("#"*30)
